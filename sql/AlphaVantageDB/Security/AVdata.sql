@@ -1,0 +1,6 @@
+CREATE SCHEMA [AVdata]
+    AUTHORIZATION [dbo];
+
+
+GO
+

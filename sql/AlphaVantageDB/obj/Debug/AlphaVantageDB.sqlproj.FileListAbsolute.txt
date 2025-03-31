@@ -1,0 +1,11 @@
+/Users/chema/Documents/AlphaVantage/sql/AlphaVantageDB/bin/Debug/AlphaVantageDB.dacpac
+/Users/chema/Documents/AlphaVantage/sql/AlphaVantageDB/bin/Debug/AlphaVantageDB.deps.json
+/Users/chema/Documents/AlphaVantage/sql/AlphaVantageDB/bin/Debug/AlphaVantageDB.dll
+/Users/chema/Documents/AlphaVantage/sql/AlphaVantageDB/bin/Debug/AlphaVantageDB.pdb
+/Users/chema/Documents/AlphaVantage/sql/AlphaVantageDB/obj/Debug/AlphaVantageDB.GeneratedMSBuildEditorConfig.editorconfig
+/Users/chema/Documents/AlphaVantage/sql/AlphaVantageDB/obj/Debug/Model.xml
+/Users/chema/Documents/AlphaVantage/sql/AlphaVantageDB/obj/Debug/refactor.xml
+/Users/chema/Documents/AlphaVantage/sql/AlphaVantageDB/obj/Debug/postdeploy.sql
+/Users/chema/Documents/AlphaVantage/sql/AlphaVantageDB/obj/Debug/predeploy.sql
+/Users/chema/Documents/AlphaVantage/sql/AlphaVantageDB/obj/Debug/AlphaVantageDB.dll
+/Users/chema/Documents/AlphaVantage/sql/AlphaVantageDB/obj/Debug/AlphaVantageDB.pdb
