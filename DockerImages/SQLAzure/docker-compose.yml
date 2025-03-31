@@ -1,0 +1,13 @@
+# ... (resto de tu archivo)
+services:
+  sqlserver:
+    image: mcr.microsoft.com/azure-sql-edge:latest 
+    container_name: sqlserver_azuresqledge 
+    restart: always
+    ports:
+      - "1433:1433"
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: "L@patata1."
+    volumes:
+      - ~/Documents/DataSChema/docker/sqlserver/data:/var/opt/mssql/data

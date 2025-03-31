@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sqlserver2022
+    restart: always
+    platform: linux/amd64
+    ports:
+      - "1433:1433"
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: "L@patata1."
+      MSSQL_PID: "Developer"
+    volumes:
+      - ~/Documents/DataSChema/docker/sqlserver/data:/var/opt/mssql/data
