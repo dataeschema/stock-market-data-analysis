@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UvaHZ5pnyJ0=",
+  "dgSpecHash": "CwVWyLrKTHI=",
   "success": true,
-  "projectFilePath": "/Users/chema/Documents/AlphaVantage/sql/AlphaVantageDB/AlphaVantageDB.sqlproj",
+  "projectFilePath": "/Users/chema/Documents/SMDA/sql/AlphaVantageDB/AlphaVantageDB.sqlproj",
   "expectedPackageFiles": [
     "/Users/chema/.nuget/packages/microsoft.netframework.referenceassemblies/1.0.3/microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
     "/Users/chema/.nuget/packages/microsoft.netframework.referenceassemblies.net20/1.0.3/microsoft.netframework.referenceassemblies.net20.1.0.3.nupkg.sha512"

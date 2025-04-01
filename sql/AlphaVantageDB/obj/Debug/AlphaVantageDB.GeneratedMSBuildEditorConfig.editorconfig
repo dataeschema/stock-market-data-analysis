@@ -1,6 +1,6 @@
 is_global = true
 build_property.RootNamespace = 
-build_property.ProjectDir = /Users/chema/Documents/AlphaVantage/sql/AlphaVantageDB/
+build_property.ProjectDir = /Users/chema/Documents/SMDA/sql/AlphaVantageDB/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.CsWinRTUseWindowsUIXamlProjections = false

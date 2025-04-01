@@ -105,11 +105,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/chema/Documents/AlphaVantage/sql/AlphaVantageDB/AlphaVantageDB.sqlproj",
+      "projectUniqueName": "/Users/chema/Documents/SMDA/sql/AlphaVantageDB/AlphaVantageDB.sqlproj",
       "projectName": "AlphaVantageDB",
-      "projectPath": "/Users/chema/Documents/AlphaVantage/sql/AlphaVantageDB/AlphaVantageDB.sqlproj",
+      "projectPath": "/Users/chema/Documents/SMDA/sql/AlphaVantageDB/AlphaVantageDB.sqlproj",
       "packagesPath": "/Users/chema/.nuget/packages/",
-      "outputPath": "/Users/chema/Documents/AlphaVantage/sql/AlphaVantageDB/obj/",
+      "outputPath": "/Users/chema/Documents/SMDA/sql/AlphaVantageDB/obj/",
       "projectStyle": "PackageReference",
       "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
