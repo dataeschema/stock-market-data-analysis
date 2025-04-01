@@ -98,3 +98,10 @@
 2025-04-01 22:15:18,582 - scripts.base - INFO - Configuración cargada desde variables de entorno
 2025-04-01 22:15:25,098 - __main__ - INFO - Conexión establecida con SQL Server: localhost,1433/AlphaVantageDB
 2025-04-01 22:15:25,103 - __main__ - INFO - Conexión cerrada con SQL Server: localhost,1433/AlphaVantageDB
+2025-04-01 22:16:44,211 - __main__ - INFO - 
+=== Probando conexión con Alpha Vantage ===
+2025-04-01 22:16:44,212 - scripts.base - INFO - Archivo .env cargado desde: /Users/chema/Documents/SMDA/config/.env
+2025-04-01 22:16:44,212 - scripts.base - INFO - Configuración cargada desde variables de entorno
+2025-04-01 22:16:44,212 - __main__ - INFO - Obteniendo datos de prueba para AAPL...
+2025-04-01 22:16:44,212 - scripts.api_client - INFO - Obteniendo datos históricos diarios ajustados para AAPL...
+2025-04-01 22:16:44,653 - __main__ - ERROR - Error al obtener datos de Alpha Vantage
