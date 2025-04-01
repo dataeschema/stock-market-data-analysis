@@ -1,0 +1,100 @@
+2025-04-01 21:22:04,999 - __main__ - INFO - === Configurando entorno ===
+2025-04-01 21:22:04,999 - __main__ - INFO - Entorno configurado correctamente
+2025-04-01 21:23:53,630 - __main__ - INFO - 
+=== Probando conexión con SQL Server ===
+2025-04-01 21:23:53,630 - scripts.base - INFO - Configuración cargada desde variables de entorno
+2025-04-01 21:23:53,633 - scripts.db_connector - ERROR - Error al conectar a SQL Server: ('01000', "[01000] [unixODBC][Driver Manager]Can't open lib 'ODBC Driver 17 for SQL Server' : file not found (0) (SQLDriverConnect)")
+2025-04-01 21:23:53,633 - scripts.db_connector - INFO - Nota: Asegúrate de tener instalado el driver ODBC para SQL Server o FreeTDS.
+2025-04-01 21:23:53,634 - scripts.db_connector - INFO - Puedes instalarlo con: brew install unixodbc freetds
+2025-04-01 21:23:53,634 - __main__ - ERROR - No se pudo establecer conexión con SQL Server
+2025-04-01 21:24:44,925 - __main__ - INFO - 
+=== Probando conexión con SQL Server ===
+2025-04-01 21:24:44,925 - scripts.base - INFO - Configuración cargada desde variables de entorno
+2025-04-01 21:24:44,926 - scripts.db_connector - ERROR - Error al conectar a SQL Server: ('01000', "[01000] [unixODBC][Driver Manager]Can't open lib 'ODBC Driver 17 for SQL Server' : file not found (0) (SQLDriverConnect)")
+2025-04-01 21:24:44,926 - scripts.db_connector - INFO - Nota: Asegúrate de tener instalado el driver ODBC para SQL Server o FreeTDS.
+2025-04-01 21:24:44,926 - scripts.db_connector - INFO - Puedes instalarlo con: brew install unixodbc freetds
+2025-04-01 21:24:44,926 - __main__ - ERROR - No se pudo establecer conexión con SQL Server
+2025-04-01 21:25:15,287 - __main__ - INFO - 
+=== Probando conexión con SQL Server ===
+2025-04-01 21:25:15,287 - scripts.base - INFO - Configuración cargada desde variables de entorno
+2025-04-01 21:25:15,289 - scripts.db_connector - ERROR - Error al conectar a SQL Server: ('01000', "[01000] [unixODBC][Driver Manager]Can't open lib 'ODBC Driver 17 for SQL Server' : file not found (0) (SQLDriverConnect)")
+2025-04-01 21:25:15,289 - scripts.db_connector - INFO - Nota: Asegúrate de tener instalado el driver ODBC para SQL Server o FreeTDS.
+2025-04-01 21:25:15,289 - scripts.db_connector - INFO - Puedes instalarlo con: brew install unixodbc freetds
+2025-04-01 21:25:15,289 - __main__ - ERROR - No se pudo establecer conexión con SQL Server
+2025-04-01 21:29:38,984 - __main__ - INFO - 
+=== Probando conexión con SQL Server ===
+2025-04-01 21:29:38,984 - scripts.base - INFO - Configuración cargada desde variables de entorno
+2025-04-01 21:29:39,211 - scripts.db_connector - ERROR - Error al conectar a SQL Server: ('28000', "[28000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Login failed for user 'sa'. (18456) (SQLDriverConnect)")
+2025-04-01 21:29:39,211 - scripts.db_connector - INFO - Nota: Asegúrate de tener instalado el driver ODBC para SQL Server o FreeTDS.
+2025-04-01 21:29:39,211 - scripts.db_connector - INFO - Puedes instalarlo con: brew install unixodbc freetds
+2025-04-01 21:29:39,211 - __main__ - ERROR - No se pudo establecer conexión con SQL Server
+2025-04-01 21:32:21,129 - __main__ - INFO - 
+=== Probando conexión con SQL Server ===
+2025-04-01 21:32:21,129 - scripts.base - INFO - Configuración cargada desde variables de entorno
+2025-04-01 21:32:21,131 - scripts.db_connector - ERROR - Error al conectar a SQL Server: ('01000', "[01000] [unixODBC][Driver Manager]Can't open lib 'FreeTDS' : file not found (0) (SQLDriverConnect)")
+2025-04-01 21:32:21,131 - scripts.db_connector - INFO - Nota: Asegúrate de tener instalado el driver ODBC para SQL Server o FreeTDS.
+2025-04-01 21:32:21,131 - scripts.db_connector - INFO - Puedes instalarlo con: brew install unixodbc freetds
+2025-04-01 21:32:21,131 - __main__ - ERROR - No se pudo establecer conexión con SQL Server
+2025-04-01 21:33:23,415 - __main__ - INFO - 
+=== Probando conexión con SQL Server ===
+2025-04-01 21:33:23,415 - scripts.base - INFO - Configuración cargada desde variables de entorno
+2025-04-01 21:33:23,456 - scripts.db_connector - ERROR - Error al conectar a SQL Server: ('28000', "[28000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Login failed for user 'sa'. (18456) (SQLDriverConnect)")
+2025-04-01 21:33:23,456 - scripts.db_connector - INFO - Nota: Asegúrate de tener instalado el driver ODBC para SQL Server o FreeTDS.
+2025-04-01 21:33:23,456 - scripts.db_connector - INFO - Puedes instalarlo con: brew install unixodbc freetds
+2025-04-01 21:33:23,456 - __main__ - ERROR - No se pudo establecer conexión con SQL Server
+2025-04-01 21:33:42,298 - __main__ - INFO - 
+=== Probando conexión con SQL Server ===
+2025-04-01 21:33:42,298 - scripts.base - INFO - Configuración cargada desde variables de entorno
+2025-04-01 21:33:42,336 - scripts.db_connector - ERROR - Error al conectar a SQL Server: ('28000', "[28000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Login failed for user 'sa'. (18456) (SQLDriverConnect)")
+2025-04-01 21:33:42,336 - scripts.db_connector - INFO - Nota: Asegúrate de tener instalado el driver ODBC para SQL Server o FreeTDS.
+2025-04-01 21:33:42,336 - scripts.db_connector - INFO - Puedes instalarlo con: brew install unixodbc freetds
+2025-04-01 21:33:42,336 - __main__ - ERROR - No se pudo establecer conexión con SQL Server
+2025-04-01 21:34:03,801 - scripts.base - INFO - Configuración cargada desde variables de entorno
+2025-04-01 21:34:18,738 - __main__ - ERROR - Error al conectar a SQL Server: ('28000', "[28000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Login failed for user 'sa'. (18456) (SQLDriverConnect)")
+2025-04-01 21:34:18,739 - __main__ - INFO - Nota: Asegúrate de tener instalado el driver ODBC para SQL Server o FreeTDS.
+2025-04-01 21:34:18,740 - __main__ - INFO - Puedes instalarlo con: brew install unixodbc freetds
+2025-04-01 21:34:27,688 - scripts.base - INFO - Configuración cargada desde variables de entorno
+2025-04-01 21:35:09,138 - scripts.base - INFO - Configuración cargada desde variables de entorno
+2025-04-01 21:50:47,500 - __main__ - INFO - 
+=== Probando conexión con SQL Server ===
+2025-04-01 21:50:47,501 - scripts.base - INFO - Configuración cargada desde variables de entorno
+2025-04-01 21:50:47,540 - scripts.db_connector - ERROR - Error al conectar a SQL Server: ('28000', "[28000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Login failed for user 'sa'. (18456) (SQLDriverConnect)")
+2025-04-01 21:50:47,540 - scripts.db_connector - INFO - Nota: Asegúrate de tener instalado el driver ODBC para SQL Server o FreeTDS.
+2025-04-01 21:50:47,540 - scripts.db_connector - INFO - Puedes instalarlo con: brew install unixodbc freetds
+2025-04-01 21:50:47,540 - __main__ - ERROR - No se pudo establecer conexión con SQL Server
+2025-04-01 21:56:05,392 - __main__ - INFO - Archivo .env cargado desde: /Users/chema/Documents/SMDA/config/.env
+2025-04-01 21:56:19,400 - __main__ - INFO - Configuración cargada desde variables de entorno
+2025-04-01 21:56:34,276 - __main__ - INFO - 
+=== Probando conexión con SQL Server ===
+2025-04-01 21:56:34,276 - scripts.base - INFO - Archivo .env cargado desde: /Users/chema/Documents/SMDA/config/.env
+2025-04-01 21:56:34,277 - scripts.base - INFO - Configuración cargada desde variables de entorno
+2025-04-01 21:56:34,337 - scripts.db_connector - ERROR - Error al conectar a SQL Server: argument 1 must be a string or unicode object
+2025-04-01 21:56:34,337 - scripts.db_connector - INFO - Nota: Asegúrate de tener instalado el driver ODBC para SQL Server o FreeTDS.
+2025-04-01 21:56:34,337 - scripts.db_connector - INFO - Puedes instalarlo con: brew install unixodbc freetds
+2025-04-01 21:56:34,337 - __main__ - ERROR - No se pudo establecer conexión con SQL Server
+2025-04-01 21:57:21,595 - scripts.base - INFO - Archivo .env cargado desde: /Users/chema/Documents/SMDA/config/.env
+2025-04-01 21:57:21,595 - scripts.base - INFO - Configuración cargada desde variables de entorno
+2025-04-01 21:59:57,493 - scripts.base - INFO - Archivo .env cargado desde: /Users/chema/Documents/SMDA/config/.env
+2025-04-01 21:59:57,493 - scripts.base - INFO - Configuración cargada desde variables de entorno
+2025-04-01 22:00:06,193 - __main__ - ERROR - Error al conectar a SQL Server: ('01000', "[01000] [unixODBC][Driver Manager]Can't open lib 'ODBC Driver 17 for SQL Server' : file not found (0) (SQLDriverConnect)")
+2025-04-01 22:00:06,194 - __main__ - INFO - Nota: Asegúrate de tener instalado el driver ODBC para SQL Server o FreeTDS.
+2025-04-01 22:00:06,194 - __main__ - INFO - Puedes instalarlo con: brew install unixodbc freetds
+2025-04-01 22:02:28,743 - scripts.base - INFO - Archivo .env cargado desde: /Users/chema/Documents/SMDA/config/.env
+2025-04-01 22:02:28,743 - scripts.base - INFO - Configuración cargada desde variables de entorno
+2025-04-01 22:02:28,744 - __main__ - ERROR - Error al conectar a SQL Server: ('01000', "[01000] [unixODBC][Driver Manager]Can't open lib 'FreeTDS' : file not found (0) (SQLDriverConnect)")
+2025-04-01 22:02:28,747 - __main__ - INFO - Nota: Asegúrate de tener instalado el driver ODBC para SQL Server o FreeTDS.
+2025-04-01 22:02:28,747 - __main__ - INFO - Puedes instalarlo con: brew install unixodbc freetds
+2025-04-01 22:07:30,293 - scripts.base - INFO - Archivo .env cargado desde: /Users/chema/Documents/SMDA/config/.env
+2025-04-01 22:07:30,293 - scripts.base - INFO - Configuración cargada desde variables de entorno
+2025-04-01 22:07:30,294 - __main__ - ERROR - Error al conectar a SQL Server: ('01000', "[01000] [unixODBC][Driver Manager]Can't open lib 'FreeTDS' : file not found (0) (SQLDriverConnect)")
+2025-04-01 22:07:30,294 - __main__ - INFO - Nota: Asegúrate de tener instalado el driver ODBC para SQL Server o FreeTDS.
+2025-04-01 22:07:30,294 - __main__ - INFO - Puedes instalarlo con: brew install unixodbc freetds
+2025-04-01 22:12:35,391 - scripts.base - INFO - Archivo .env cargado desde: /Users/chema/Documents/SMDA/config/.env
+2025-04-01 22:12:35,391 - scripts.base - INFO - Configuración cargada desde variables de entorno
+2025-04-01 22:12:45,665 - __main__ - ERROR - Error al conectar a SQL Server: argument 1 must be a string or unicode object
+2025-04-01 22:12:46,738 - __main__ - INFO - Nota: Asegúrate de tener instalado el driver ODBC para SQL Server o FreeTDS.
+2025-04-01 22:12:52,289 - __main__ - INFO - Puedes instalarlo con: brew install unixodbc freetds
+2025-04-01 22:15:18,582 - scripts.base - INFO - Archivo .env cargado desde: /Users/chema/Documents/SMDA/config/.env
+2025-04-01 22:15:18,582 - scripts.base - INFO - Configuración cargada desde variables de entorno
+2025-04-01 22:15:25,098 - __main__ - INFO - Conexión establecida con SQL Server: localhost,1433/AlphaVantageDB
+2025-04-01 22:15:25,103 - __main__ - INFO - Conexión cerrada con SQL Server: localhost,1433/AlphaVantageDB

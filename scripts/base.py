@@ -19,6 +19,8 @@ import abc                     # Para definir clases abstractas
 import logging                 # Para registro de eventos
 from datetime import datetime  # Para manejo de fechas y horas
 from typing import Dict, List, Any, Optional, Tuple, Union  # Para tipado estático
+from dotenv import load_dotenv
+# Cargar variables de entorno desde el archivo .env
 
 # Configurar logging
 logging.basicConfig(
@@ -270,6 +272,17 @@ class ConfigManager(Singleton):
         - Método privado: Implementación interna no expuesta
         - Separación de responsabilidades: Método dedicado a una tarea específica
         """
+        # Cargar variables de entorno desde el archivo .env
+            # Ruta al archivo .env
+        env_file = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'config', '.env')
+
+        # Verificar si el archivo .env existe
+        if os.path.exists(env_file):
+            load_dotenv(env_file)  # Carga las variables de entorno
+            logger.info(f"Archivo .env cargado desde: {env_file}")
+        else:
+            logger.warning(f"No se encontró el archivo .env en la ruta: {env_file}")
+        
         # Cargar configuración de base de datos
         self.config['SQL_SERVER'] = os.getenv('SQL_SERVER', 'localhost')
         self.config['SQL_PORT'] = os.getenv('SQL_PORT', '1433')

@@ -88,11 +88,15 @@ class SQLServerConnector(DatabaseConnector):
         try:
             # Construir la cadena de conexión para pyodbc
             # Utilizamos el formato adecuado para SQL Server con ODBC
-            conn_str = f'DRIVER={{ODBC Driver 17 for SQL Server}};SERVER={self.server},{self.port};DATABASE={self.database};UID={self.user};PWD={self.password}'
-            
-            # Alternativa para FreeTDS si el driver ODBC no funciona en macOS
-            # conn_str = f'DRIVER={{FreeTDS}};SERVER={self.server};PORT={self.port};DATABASE={self.database};UID={self.user};PWD={self.password};TDS_VERSION=8.0'
-            
+            conn_str = (
+                f'DRIVER=/opt/homebrew/lib/libmsodbcsql.18.dylib;'
+                f'SERVER={self.server},{self.port};'
+                f'DATABASE={self.database};'
+                f'UID={self.user};'
+                f'PWD={self.password};'
+                f'TrustServerCertificate=yes;'
+            )
+
             # Establecer la conexión
             self.conn = pyodbc.connect(conn_str)
             # Crear un cursor para ejecutar consultas

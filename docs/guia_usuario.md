@@ -69,16 +69,23 @@ LOG_LEVEL=INFO
 ### 2.1 Usando Visual Studio Code
 
 1. Instala la extensión "SQL Server (mssql)" en Visual Studio Code.
-2. Conéctate a tu instancia de SQL Server:
-   - Presiona F1 y escribe "SQL Server: Connect"
-   - Introduce los detalles de conexión (servidor, usuario, contraseña)
+2. Instala la extensión "SQL Database Projects" en visual Studio Code.
 
-3. Ejecuta los scripts SQL en el siguiente orden:
-   - `sql/01_create_database.sql` - Crea la base de datos
-   - `sql/02_create_tables.sql` - Crea los esquemas y tablas
-   - `sql/03_insert_initial_data.sql` - Inserta datos iniciales
+### 2.2 Crear contenedor de docker desktop con SQL Server
+1. Instala docker desktop
+2. Crea una carpeta para los ficheros de BBDD enel host:
+```
+mkdir -p ~/docker/sqlserver/data
+chmod -R 777 ~/docker/sqlserver/data
+```
+3. Crea el contenedor y ejecutalo con:
+```
+docker-compose up -d
+```
+4. Abre el proyecto de BBDD en la carpeta ./sql/AlphaVantageDB/AlphaVantageDB.sqlproj
+5. publica el proyecto en el contenedor (boton derecho publish y sigue las instrucciones)
 
-### 2.2 Verificación de la estructura
+### 2.3 Verificación de la estructura
 
 Después de ejecutar los scripts, deberías tener:
 - Base de datos: `AlphaVantageDB`
