@@ -2,3 +2,4 @@ config/.env
 logs/alpha_vantage.log
 logs/alpha_vantage.log
 .vscode/launch.json
+env/*
