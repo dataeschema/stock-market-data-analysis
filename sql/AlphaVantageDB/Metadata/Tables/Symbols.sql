@@ -4,8 +4,7 @@ CREATE TABLE [Metadata].[Symbols] (
     [CompanyName] NVARCHAR (100) NOT NULL,
     [IsActive]    BIT            DEFAULT ((1)) NULL,
     [CreatedDate] DATETIME       DEFAULT (getdate()) NULL,
-    PRIMARY KEY CLUSTERED ([SymbolID] ASC),
-    CONSTRAINT [UQ_Symbol] UNIQUE NONCLUSTERED ([Symbol] ASC)
+    PRIMARY KEY CLUSTERED ([SymbolID] ASC)
 );
 
 
