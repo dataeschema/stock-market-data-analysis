@@ -5,12 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python Debugger: Current File with Arguments",
+            "name": "Debug main_poo.py --test-api",
             "type": "debugpy",
             "request": "launch",
-            "program": "${file}",
+            "program": "${workspaceFolder}/scripts/main_poo.py",
             "console": "integratedTerminal",
-            "args": "${command:pickArgs}"
+            "args": "--test-api",
+            "justMyCode": true
         }
     ]
 }
