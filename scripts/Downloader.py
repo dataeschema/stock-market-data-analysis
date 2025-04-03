@@ -18,11 +18,11 @@ load_dotenv(env_file)
 
 # Conexión a SQL Server
 cadena_conexion = f'DRIVER=/opt/homebrew/lib/libmsodbcsql.18.dylib;' + \
-    f'SERVER={os.getenv('SQL_SERVER')},{os.getenv('SQL_PORT')};' + \
-    f'DATABASE={os.getenv('SQL_DATABASE')};' + \
-    f'UID={os.getenv('SQL_USER')};' + \
-    f'PWD={os.getenv('SQL_PASSWORD')};' + \
-    f'TrustServerCertificate=yes;'
+    f"SERVER={os.getenv('SQL_SERVER')},{os.getenv('SQL_PORT')};" + \
+    f"DATABASE={os.getenv('SQL_DATABASE')};" + \
+    f"UID={os.getenv('SQL_USER')};" + \
+    f"PWD={os.getenv('SQL_PASSWORD')};" + \
+    f"TrustServerCertificate=yes;"
 
 
 try:
@@ -68,6 +68,10 @@ symbols_df = pd.read_sql(consulta, conexion)
 # Extraer los valores de las columnas SymbolID y Symbol como una lista de diccionarios
 symbols_lista = symbols_df[['SymbolID', 'Symbol']].to_dict(orient='records')
 
+if not symbols_lista:
+    print("No se encontraron símbolos para procesar.")
+    exit()
+# Crear cursor para ejecutar comandos SQL   
 
 cursor = conexion.cursor()
 
