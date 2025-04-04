@@ -55,12 +55,13 @@ def obtener_historico_accion(symbol, api_key):
 
 conexion = pyodbc.connect(cadena_conexion)
 consulta = '''
-SELECT TOP (5) [SymbolID]
+SELECT [SymbolID]
       ,[Symbol]
       ,[CompanyName]
       ,[IsActive]
       ,[CreatedDate]
   FROM [AlphaVantageDB].[Metadata].[Symbols]
+  WHERE [Symbol] in ('AAPL','MSFT','NVDA','GOOGL','AMZN')
   order by [SymbolID] ASC
 '''
 
