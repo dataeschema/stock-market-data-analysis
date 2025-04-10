@@ -1,0 +1,6 @@
+Flask
+pandas
+SQLAlchemy
+pyodbc
+python-dotenv
+yfinance
